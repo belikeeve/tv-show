@@ -49,6 +49,10 @@ body {
     margin: 0;
 }
 
+h3 {
+    padding: 20px;
+}
+
 .missions {
     display: flex;
     justify-content: space-around;
