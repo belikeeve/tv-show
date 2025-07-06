@@ -1,0 +1,146 @@
+/**
+Yellow - #feeeae
+Dark purple - #4C1D4E
+Lilac - #AE5598
+Pink - #e06c9f
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* EXPLANATION - Because we have flexbox, we can use it to push the content to the bottom of the hero section, instead of the fixed margin-height used prior on #visit */
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/thewerkroom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px; /* Adds some space from the bottom edge */
+    box-sizing: border-box; /* Ensures the padding defined is included in - and not added to - the element's total height */
+}
+
+
+.visit-card {
+    color: #000000;
+    background-color:  #ffffff; 
+    line-height: 1.5;
+    font-weight: 600;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    border: 5px solid #e06c9f;
+    width: 60%;
+}
+
+#visit-title {
+    font-family: "Racing Sans One", "Montserrat", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.werkroom {
+    background-color: #feeeae;
+    padding: 10px 0 20px;
+    margin: 0;
+}
+
+.missions {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Aligns items to the top*/
+    margin: 0 50px;
+    line-height: 1.5;
+    color: #000000;
+    
+}
+
+.mission-gif {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px 15px;
+}
+
+.mission-gif:hover{
+    transform: rotateY(180deg);
+}
+
+#sip-tea, #stir-pot, #gag-em{
+    width: 250px;
+    margin: 15px 20px;
+}
+
+/* Custom CSS for the checkered pattern */
+.checkered-background {
+    background: repeating-conic-gradient(
+                #000000 0% 25%,
+                #ffffff 0% 50%
+            ) 0 0 / 30px 30px; /* Shorthand: gradient, position (0 0), pattern size (30px 30px) */
+    width: 100%;
+    height: 10px;
+    border: 1px solid #d1d5db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px; 
+    padding: 15px;
+    box-sizing: border-box; /* Ensures the padding defined is included in - and not added to - the element's total height */
+}
+
+.sign-off {
+    background-color: #e06c9f;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #e06c9f;
+    padding: 50px;
+}
+
+#rupaul-quote {
+    width: 40%;
+    padding: 20px;
+    line-height: 1.5;
+    text-shadow: 0px 0px 2px black; 
+}
+
+/* --- Responsive Styles --- */
+/* EXPLANATION: This is a Media Query. 
+The styles inside this block will ONLY apply if the browser window's width is 768 pixels or less.
+This is a common width to target tablets and mobile phones.
+*/
+
+@media (max-width: 768px) {
+
+    #visit-desc {
+        /* On smaller screens, we want the description to take up the full width */
+        width: 100%; 
+        margin-bottom: 40px; /* Reduced margin for smaller screens */
+    }
+
+    .missions {
+        flex-direction: column; /* 'flex-direction: column;' stacks the items vertically instead of horizontally. */
+        align-items: center; /*'align-items: center;' will center them neatly in the column. */
+    }
+
+    .card {
+        /* Just like with the missions, we stack the card items vertically on smaller screens. */
+        flex-direction: column;
+        padding: 30px 15px; /* Reduce padding on smaller screens */
+    }
+
+    #rupaul-quote {
+        /* When the card items are stacked, the quote can take up more of the available width. */
+        width: 90%;
+        text-align: center; /* Center the text for a better look when stacked */
+    }
+}
