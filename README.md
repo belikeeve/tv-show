@@ -2,6 +2,7 @@
 A re-interpretation of the "Hometown Homepage" challenge on [Scrimba's Fullstack Developer Path](https://scrimba.com/fullstack-path-c0fullstack).
 
 ## Sandbox
+https://codesandbox.io/p/github/belikeeve/tv-show/main?import=true
 
 ## Live demo
 [RuPaul's Drag Race - The Werk Room](https://sprightly-paprenjak-510104.netlify.app/)
