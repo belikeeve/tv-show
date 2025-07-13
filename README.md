@@ -19,7 +19,7 @@ The project is a landing page with three sections:
 - **Section One** is the hero section and introduction. It contains:
   - A background image
   - A `h1` heading as the main title
-  - A brief `p`aragraph to describe The Werk Room
+  - A brief `p` sentence to describe The Werk Room
 
 - **Section Two** is a container of "missions", reflecting the kinds of things drag queens get up to on the show. It contains:
   - A `h2´ heading title
@@ -31,7 +31,7 @@ The project is a landing page with three sections:
 - **Section Three** contains:
   - An image of RuPaul, exec producer and host of the show
   - A `h4` heading
-  - A paragraph with RuPaul's signature catchphrase
+  - A `p` sentence with RuPaul's signature catchphrase
 
 
 ### Requirements
