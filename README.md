@@ -39,7 +39,7 @@ The project is a landing page with three sections:
 
   - [x] Use the provided text and pictures about the instructor's hometown
   - [x] Use semantic HTML5 markup
-  - [x] Use CSS ucstom properties
+  - [x] Use CSS custom properties
   - [x] Use flexbox for aligning elements
   - [x] Use background image
   - [x] Use a colour palette
