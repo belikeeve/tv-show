@@ -1,5 +1,5 @@
 # RuPaul's Drag Race - The Werk Room
-A re-interpretation of the "Hometown Homepage" challenge on [Scrimba's Fullstack Developer Path](https://scrimba.com/fullstack-path-c0fullstack).
+A re-interpretation of the "Hometown Homepage" solo challenge on [Scrimba's Fullstack Developer Path](https://scrimba.com/fullstack-path-c0fullstack).
 
 ## Sandbox
 https://codesandbox.io/p/github/belikeeve/tv-show/main?import=true
