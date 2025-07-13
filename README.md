@@ -45,7 +45,7 @@ The project is a landing page with three sections:
   - [x] Add a whole new section
   - [x] Follow the UX design guide on Figma
 
-### Strech goals
+### Stretch goals
 
   - [x] Make it your own
   - [x] Add a new section
